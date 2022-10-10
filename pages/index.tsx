@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       </Head>
       <div className="flex flex-col justify-between h-full">
         <Header />
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 h-4/5">
           <TaskCard></TaskCard>
           <TaskCard></TaskCard>
           <TaskCard></TaskCard>

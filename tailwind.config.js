@@ -6,7 +6,11 @@ module.exports = {
     "./layout/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        gold: "#FEDA2C",
+      },
+    },
   },
   plugins: [],
 };
