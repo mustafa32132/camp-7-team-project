@@ -2,7 +2,7 @@ import React from "react";
 
 import Image from "next/image";
 
-function ShirtSvg() {
+function ShirtIcon() {
   return (
     <svg
       width="146"

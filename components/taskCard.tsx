@@ -5,8 +5,8 @@ type taskCardProps = {};
 
 export default function TaskCard({}: taskCardProps) {
   return (
-    <div className="flex flex-col rounded-md h-1/4 w-11/12 bg-slate-500">
-      <div className="flex">
+    <div className="flex flex-col rounded-md h-[29%] w-[88%] bg-white shadow-md">
+      <div className="flex ">
         <TokenIcon className="text-gold text-xl" />
       </div>
       <div className="flex"></div>

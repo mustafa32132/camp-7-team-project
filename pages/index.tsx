@@ -15,10 +15,10 @@ const Home: NextPage = () => {
       </Head>
       <div className="flex flex-col justify-between h-full">
         <Header />
-        <div className="flex flex-col gap-3 h-4/5">
-          <TaskCard></TaskCard>
-          <TaskCard></TaskCard>
-          <TaskCard></TaskCard>
+        <div className="flex flex-col items-center justify-around h-4/5 pt-2 pb-2">
+          <TaskCard />
+          <TaskCard />
+          <TaskCard />
         </div>
         <NavigationBar />
       </div>

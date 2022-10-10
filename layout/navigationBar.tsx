@@ -22,16 +22,16 @@ export default function NavigationBar({}: navigationBarProps) {
             <div className="bg-[#F76C5E] rounded-full h-4 w-4 absolute top-0 right-0"></div>
           )}
           <Link href="/tasks">
-            <ClipboardDocumentListIcon className="h-10 w-10" />
+            <ClipboardDocumentListIcon className="h-10 w-10 text-white" />
           </Link>
         </div>
 
         <Link href="/addTask">
-          <PlusCircleIcon className="h-16 w-16" />
+          <PlusCircleIcon className="h-16 w-16 text-white" />
         </Link>
 
         <Link href="/rewards">
-          <ShoppingCartIcon className="h-10 w-10" />
+          <ShoppingCartIcon className="h-10 w-10 text-white" />
         </Link>
       </div>
     </div>
